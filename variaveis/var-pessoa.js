@@ -1,13 +1,13 @@
 // , var, let, const
 // tipos de dados
 
-let nome = "Tony"
-let sobrenome = "Stark"
-const cpf = "99999999-17"
-const rg = "091929 spp"
-let idade = "53"
-let solteiro = true
-let nota  = 9 + 6
+let nome = "Tony" //string
+let sobrenome = "Stark" //string
+const cpf = "99999999-17" //string
+const rg = "091929 spp" //string
+let idade = "53" //number
+let solteiro = true //boolean
+let nota  = 9 + 6 //number
 
 console.log(nome)
 console.log(sobrenome)
