@@ -1,5 +1,11 @@
 const fs = require('fs')
+const path = require('path')
 
-const arquivo = fs.readFileSync(__dirname + '/festa.md')
+try {
 
-console.log(arquivo)
+    const arquivo = fs.readFileSync(path.join(__dirname, '/festa.md'), 'utf-8')
+    console.log(arquivo)
+
+} catch (erro) {
+    console.log("Deu uma bosta suprema: \nj" + erro.message)
+}
